@@ -1,7 +1,7 @@
 import React from "react";
 
-function Header() {
+function Contact() {
   return <div></div>;
 }
 
-export default Header;
+export default Contact;
