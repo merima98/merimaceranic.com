@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { GitHub, Linkedin, MessageCircle } from "react-feather";
+import { GitHub, Linkedin, MessageCircle, ArrowRight } from "react-feather";
 import { NavLink } from "react-router-dom";
 
 import homeImage from "../../images/homeImage.jpg";
@@ -12,6 +12,7 @@ const Wrapper = styled.div`
   @media (min-width: ${BREAKPOINTS.SMALL_DEVICES}) {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    position: fixed;
   }
 `;
 
@@ -75,7 +76,9 @@ function Home() {
       <Image />
       <div>
         <AboutUserInfo exact to="/user">
-          <AboutUserInformation>ABOUT ME</AboutUserInformation>
+          <AboutUserInformation>
+            <ArrowRight style={{ height: "16px", width: "16px" }} /> ABOUT ME
+          </AboutUserInformation>
         </AboutUserInfo>
         <UserContainer>
           <UserInformation>First name</UserInformation>
