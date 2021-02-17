@@ -38,7 +38,6 @@ const UserInformation = styled.div`
 `;
 const AboutUserInformation = styled.div`
   padding: 40px;
-  border-top: 1px solid #94a29e;
   color: #fff;
   text-align: center;
   cursor: pointer;
