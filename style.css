@@ -25,23 +25,23 @@
     height: 100vh;
   }
 }
-.aboutUserInfoContainer {
+.aboutuserinfocontainer {
   text-align: center;
 }
-.userImage {
+.userimage {
   padding-bottom: 40px;
   padding-top: 40px;
   width: 8rem;
   border-radius: 50%;
 }
-.aboutUserInfo {
+.aboutuserinfo {
   color: #000;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
 }
 
-.userContainer {
+.usercontainer {
   width: 100%;
   max-height: 60%;
   margin: 100px auto;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 576px) {
-  .userContainer {
+  .usercontainer {
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -63,14 +63,14 @@
   border-top: 1px solid #94a29e;
   color: #000;
 }
-.contactLink {
+.contactlink {
   padding: 10px;
   border-top: 1px solid #94a29e;
   color: #000;
   text-decoration: none;
 }
 
-.contactLink:hover .icon {
+.contactlink:hover .icon {
   transform: translateX(10px);
   color: aqua;
 }
@@ -84,6 +84,6 @@
   color: red;
 }
 
-.userDescription {
+.userdescription {
   font-size: 14px;
 }
